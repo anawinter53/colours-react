@@ -6,12 +6,12 @@ export default function ColourItem({colourData}) {
   const [colour, setColour] = useState({});
 
   function getColorInformation() {
-    colourData.map((el) => {
+    colourData? colourData.map((el) => {
         if(el.id === parseInt(id)) {
             setColour(el)
         }
-    })
-  }
+    }) : undefined
+  } 
 
   useEffect(() => {
     getColorInformation()
@@ -19,7 +19,7 @@ export default function ColourItem({colourData}) {
 
   return (
     <div className='colour-item' style={{backgroundColor: colour.hex}}>
-    <h1>{colour.name}</h1>
+    <h1 role='headingone'>{colour.name}</h1>
     <h3>{colour.hex}</h3>
    </div>
   )

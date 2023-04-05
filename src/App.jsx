@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Nav from './Nav';
+import Nav from './layout/Nav';
 import {Home, About, ColourPage, ColourItem} from './pages';
 import './App.css';
 import data from './config/data.json';
@@ -14,7 +14,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Nav />}>
           <Route index element={<Home />}/>
-          <Route path='about' element={<Home />}/>
+          <Route path='about' element={<About />}/>
           <Route path='colours'>
             <Route index element={<ColourPage colourData={colourData} />}/>
             <Route path=':id' element={<ColourItem colourData={colourData}/>}/>
