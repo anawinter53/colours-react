@@ -2,51 +2,51 @@
     {
         "id": 0,
         "name": "Vermillion",
-        "Hex code": "#E34234"
+        "hex": "#E34234"
     },
     {
         "id": 1,
         "name": "Verdigris",
-        "Hex code": "#40B5AD"
+        "hex": "#40B5AD"
     },
     {
         "id": 2,
         "name": "Titian",
-        "Hex code": "#B05923"
+        "hex": "#B05923"
     },
     {
         "id": 3,
         "name": "Bisque",
-        "Hex code": "#F2D2BD"
+        "hex": "#F2D2BD"
     },
     {
         "id": 4,
         "name": "Puce",
-        "Hex code": "#CC8899"
+        "hex": "#CC8899"
     },
     {
         "id": 5,
         "name": "Cattleya",
-        "Hex code": "#9C4C8D"
+        "hex": "#9C4C8D"
     },
     {
         "id": 6,
         "name": "Smalt",
-        "Hex code": "#46567b"
+        "hex": "#46567b"
     },
     {
         "id": 7,
         "name": "Damask",
-        "Hex code": "#8b5959"
+        "hex": "#8b5959"
     },
     {
         "id": 8,
         "name": "Chartreuse",
-        "Hex code": "#dfff00"
+        "hex": "#dfff00"
     },
     {
         "id": 9,
         "name": "Alabaster",
-        "Hex code": "#EDEADE"
+        "hex": "#EDEADE"
     }
 ]

@@ -5,7 +5,6 @@ export default function ColourItem({colourData}) {
   const {id} = useParams();
   const [colour, setColour] = useState({});
 
-  console.log(colour)
   function getColorInformation() {
     colourData.map((el) => {
         if(el.id === parseInt(id)) {
@@ -19,6 +18,9 @@ export default function ColourItem({colourData}) {
   }, [])
 
   return (
-   <h1>Colour</h1>
+    <div className='colour-item' style={{backgroundColor: colour.hex}}>
+    <h1>{colour.name}</h1>
+    <h3>{colour.hex}</h3>
+   </div>
   )
 }
