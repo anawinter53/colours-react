@@ -18,8 +18,8 @@ export default function ColourItem({colourData}) {
   }, [])
 
   return (
-    <div className='colour-item' style={{backgroundColor: colour.hex}}>
-    <h1 role='headingone'>{colour.name}</h1>
+    <div role='div' className='colour-item' style={{backgroundColor: colour.hex}}>
+    <h1 role="headingone">{colour.name}</h1>
     <h3>{colour.hex}</h3>
    </div>
   )

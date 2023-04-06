@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1680709902719" clover="3.2.0">
-  <project timestamp="1680709902719" name="All files">
-    <metrics statements="92" coveredstatements="84" conditionals="18" coveredconditionals="16" methods="9" coveredmethods="9" elements="119" coveredelements="109" complexity="0" loc="92" ncloc="92" packages="5" files="5" classes="5"/>
+<coverage generated="1680766582810" clover="3.2.0">
+  <project timestamp="1680766582810" name="All files">
+    <metrics statements="92" coveredstatements="85" conditionals="20" coveredconditionals="17" methods="9" coveredmethods="9" elements="121" coveredelements="111" complexity="0" loc="92" ncloc="92" packages="5" files="5" classes="5"/>
     <package name="layout.Nav">
       <metrics statements="26" coveredstatements="26" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
       <file name="index.jsx" path="/Users/anawinter/Desktop/colours-react/src/layout/Nav/index.jsx">
@@ -51,35 +51,35 @@
       </file>
     </package>
     <package name="pages.ColourItem">
-      <metrics statements="26" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <metrics statements="26" coveredstatements="24" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="/Users/anawinter/Desktop/colours-react/src/pages/ColourItem/index.jsx">
-        <metrics statements="26" coveredstatements="23" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="26" coveredstatements="24" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="10" count="0" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
       </file>
     </package>
     <package name="pages.ColourPage">
